@@ -1,0 +1,4 @@
+pyaudio
+faster-whisper
+edge-tts
+requests 
