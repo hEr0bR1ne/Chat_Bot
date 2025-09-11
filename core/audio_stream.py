@@ -43,7 +43,7 @@ class AudioStreamProcessor:
         self.output_device_index = output_device_index
         
         # 音频参数
-        self.CHUNK = 8192
+        self.CHUNK = 2048
         self.FORMAT = pyaudio.paInt16
         self.CHANNELS = 1
         self.RATE = 16000
